@@ -1,0 +1,295 @@
+<recipe>
+	<tablecontents>
+		<recipetitle>Mii Creator</recipetitle>
+		<contentstext>Contents</contentstext>
+		<languagebtext>Change Language</languagebtext>
+		<languagectext>Please select the language to use on the manual.</languagectext>
+		<languageitext>Current Language:</languageitext>
+		<backbtntext>Back</backbtntext>
+		<nextbtntext>Next</nextbtntext>
+		<returnbtntext>Return</returnbtntext>
+		<section>
+			<article>Important Information</article>
+		</section>
+		<section>
+			<sectionname>Getting Started</sectionname>
+			<article>Introduction</article>
+			<article>Mii Characters</article>
+		</section>
+		<section>
+			<sectionname>Using Mii Creator</sectionname>
+			<article>Main Menu Screen</article>
+			<article>Create/Edit Screen</article>
+			<article>Settings Screen</article>
+			<article>Export/Read Mii Data</article>
+			<article>QR Code Reading Tips</article>
+		</section>
+		<section>
+			<sectionname>User Contributions</sectionname>
+			<article>Helping with Mii Creator</article>
+			<article>Credits</article>
+		</section>
+		<section>
+		<sectionname>API</sectionname>
+		<article>JavaScript API/Samples</article>
+		</section>
+		<section>
+			<sectionname>Legal Notices</sectionname>
+			<article>Legal Notices</article>
+		</section>
+	</tablecontents>
+	<page id="1">
+		<text>
+			<p>This manual provides information about usage of the Mii Creator website and all of its features.<br/>
+            For more information (including its internal functionality, programming) and for any feedback/error reports relating to the site, please email the following email address:<br/>
+				<a href="mailto:datkat21@gmail.com">datkat21@gmail.com</a>
+				<br/>This site is not associated with Nintendo.</p>
+		</text>
+	</page>
+	<page id="2">
+		<text>
+			<p class="assistant-both">Hello!, my name is Dani, and this is Emily, we're Miis, and we're both going to guide you to usage of Mii Creator, everything about it, and everything you can DO with it, assuming this is your first time using the site.</p>
+			<br/>
+			<p>Mii Creator is a program that allows you to create Mii characters for yourself, family members, friends, other characters, and anyone, export them to different formats, including QR Code and all the known Mii data formats, and customize the way these Mii characters look.<br/>
+				<img src="/img/image1.png"></img>
+            To know more about Mii characters themselves, check Page <a href="javascript:void(0)" class="link-man" data-page="3">3</a> of this e-manual.</p>
+		</text>
+	</page>
+	<page id="3">
+		<text>
+			<p class="assistant-1">Mii Characters are avatars that can represent anyone and anything you want!</p>
+			<br/>
+			<p>With many customization opportunities possible, and some new additions exclusive to this program, there are never limitations.<br/>
+            Start creating your Mii characters now and gather a lot of them, create QR Codes and share them to your friends and everyone!
+            <img src="/img/image2.png"></img>
+			</p>
+			<br/><p class="assistant-2">These are all the features a Mii character have that can be customized:</p>
+			<br/>
+			<table class="feature-table">
+				<tbody>
+					<tr>
+						<th>
+							<img src="/img/mic1.png"/>
+						</th>
+						<td>
+							<h1>Head Type</h1>
+							<p>This changes different features of your Mii character's head.
+								<br/>
+        Such as:
+							</p>
+							<!-- Nested table inside td -->
+							<table>
+								<tr>
+									<th>
+										<img src="/img/miic1.png"/>
+									</th>
+									<td>Head Shape</td>
+								</tr>
+								<tr>
+									<th>
+										<img src="/img/miic2.png"/>
+									</th>
+									<td>Head Makeup</td>
+								</tr>
+								<tr>
+									<th>
+										<img src="/img/miic3.png"/>
+									</th>
+									<td>Head Wrinkle</td>
+								</tr>
+								<tr>
+									<th>
+										<img src="/img/miic4.png"/>
+									</th>
+									<td>Skin Color</td>
+								</tr>
+								<tr>
+									<th>
+										<img src="/img/miic5.png"/>
+									</th>
+									<td>Face Paint</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic2.png"/>
+						</th>
+						<td>
+							<h1>Hair Type</h1>
+							<p>This changes the hair type/color of your Mii character's head.
+								<br/>
+                    Also allows you to change the hair orientation.
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic3.png"/>
+						</th>
+						<td>
+							<h1>Hat/Hat Color</h1>
+							<p>This sets a hat/custom hat with a custom color for your Mii character to wear.
+								<br/>
+                    This feature is experimental and 
+								<b>only available on Mii Creator-format Mii characters.</b>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic4.png"/>
+						</th>
+						<td>
+							<h1>Eyebrow Type</h1>
+							<p>This changes the eyebrows type of your Mii character's head.</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic5.png"/>
+						</th>
+						<td>
+							<h1>Eyes Type</h1>
+							<p>This changes the eyebrows type/color of your Mii character.</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic6.png"/>
+						</th>
+						<td>
+							<h1>Nose Type</h1>
+							<p>This changes the nose type and position of your Mii character.</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic7.png"/>
+						</th>
+						<td>
+							<h1>Mouth Type</h1>
+							<p>This changes the mouth type/color/position of your Mii character.</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic8.png"/>
+						</th>
+						<td>
+							<h1>Mustache/Beard Types</h1>
+							<p>This changes the mustache/beard facial features and their color/position from your Mii character.</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic9.png"/>
+						</th>
+						<td>
+							<h1>Mole</h1>
+							<p>This enables a mole and allows you to change its position/size from your Mii character.</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic10.png"/>
+						</th>
+						<td>
+							<h1>Glasses Type</h1>
+							<p>This enables glasses and allows you to change its type/color/position/size from your Mii character.</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic11.png"/>
+						</th>
+						<td>
+							<h1>Height/Width</h1>
+							<p>This allows you to change the height and width of your Mii character.</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic12.png"/>
+						</th>
+						<td>
+							<h1>Favorite Color/Shirts &amp; Pants Color</h1>
+							<p>This allows you to change the favorite color and shirt (or skirt, if set to Female) /pants color for your Mii character.
+								<br/>
+                    The shirt/pants custom color feature is experimental and 
+								<b>only available on Mii Creator-format Mii characters.</b>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic13.png"/>
+						</th>
+						<td>
+							<h1>Gender Type</h1>
+							<p>This sets a gender to your Mii character, setting it to male makes your Mii character use a shirt, while setting it to female changes it to a dress.</p>
+						</td>
+					</tr>
+					<tr>
+						<th>
+							<img src="/img/mic14.png"/>
+						</th>
+						<td>
+							<h1>Name/Creator</h1>
+							<p>This allows you to set a name and creator for your Mii character.
+								<br/>
+                    You can set custom characters and emojis, but the original name will
+								<b> only be kept on the Mii Creator-format Mii characters.</b>
+							</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<br/>
+			<p>To check more information about Mii data formats and their compatibility, check Page <a href="javascript:void(0)" class="link-man" data-page="7">7</a></p>
+		</text>
+	</page>
+
+	<page id="4">
+		<text>
+		</text>
+	</page>
+
+	<page id="5">
+		<text>
+        <div class="menu-guide">
+        <img src="/img/image4.png"></img>
+        <span>Mii Character Preview</span>
+        <span>Menu Options</span>
+		<span>Mobile</span>
+        <span>Desktop</span>
+        </div>
+			<p><br/>
+			</p>
+		</text>
+	</page>
+
+	<page id="6">
+	<text>
+	</text>
+	</page>
+
+	<page id="7">
+	<text>
+			<p class="adv">Be advised that some features <b>are exclusive to Mii Creator</b> and its format, Mii Creator features from a Mii data format (QR Code/Mii Creator-format (.miic)) will be only transferred from Mii Creator itself.
+			</p>
+			<br/>
+			<p class="adv">All Mii Creator QR Codes are compatible with Wii U/3DS/Miitomo, however, Switch colors and extra data for Mii Creator-only features won't be transferred.<br/></p>
+			<br/>
+			<p class="adv">Trying to export Mii Creator-format Mii characters to other formats like Wii U/3DS/Switch formats won't migrate the new features (colored shirts/pants will default to the Mii character's favorite color), however Switch colors will be kept</p>
+			<br/>
+			<p class="adv">Also, trying to export Mii characters with Switch features on a Wii U/3DS format will make unavailable types/colors be replaced with the closest counterpart.</p>
+			<br/>
+			<p class="label">Comparison Image:</p>
+			<br/>
+			<img src="/img/image3.png"></img>
+	</text>
+	</page>
+	<copyright>©2025 Kat21.</copyright>
+</recipe>
